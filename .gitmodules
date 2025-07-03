@@ -1,0 +1,6 @@
+[submodule "acoustic_knowledge_discovery"]
+	path = acoustic_knowledge_discovery
+	url = https://github.com/UCSD-E4E/acoustic_knowledge_discovery.git
+[submodule "pyha-analyzer-2.0"]
+	path = pyha-analyzer-2.0
+	url = https://github.com/UCSD-E4E/pyha-analyzer-2.0.git
