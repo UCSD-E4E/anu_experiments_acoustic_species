@@ -12,7 +12,6 @@ dependencies = [
     "librosa>=0.10.2.post1",
     "pandas>=2.2.3",
     "pillow>=11.2.1",
-    "pyha-analyzer",
     "pyrootutils>=1.0.4",
     "soundfile>=0.13.1",
     "timm>=1.0.15",
@@ -55,7 +54,6 @@ torchvision = [
   { index = "pytorch-cu128", extra = "cu128" },
   { index = "pytorch-cu126", extra = "cu126" },
 ]
-pyha-analyzer = { path = "pyha-analyzer-2.0" }
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
