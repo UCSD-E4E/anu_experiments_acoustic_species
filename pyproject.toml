@@ -61,8 +61,8 @@ torchvision = [
   { index = "pytorch-cu128", extra = "cu128" },
   { index = "pytorch-cu126", extra = "cu126" },
 ]
-pyha-analyzer = { path = "pyha-analyzer-2.0" }
 lapjv = { git = "https://github.com/src-d/lapjv" }
+pyha-analyzer = { path = "pyha-analyzer-2.0" }
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
