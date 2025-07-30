@@ -1,0 +1,101 @@
+,path,offset_s,sr,gt,site,entropy,complexity
+0,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/Februrary_March2024/20240227_001000.WAV,0,48000,"[0, 1, 0]",A_ND,0.9404604887448765,0.09903039230220145
+1,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023224726.wav,0,48000,"[0, 0, 1]",Australia,0.9457853002729536,0.12557585762766668
+2,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250316_155100.WAV,0,48000,"[0, 1, 0]",A_D,0.9193907341760134,0.15105245644660847
+3,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/July 2024/20240717_202600.WAV,0,48000,"[0, 1, 0]",A_D,0.8662845662183479,0.2079858694304945
+4,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201706/SSK_Site_C_20170618_223500.wav,0,44100,"[0, 1, 0]",Site_C,0.44841100286037416,0.36463987163246114
+5,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181024012718.wav,0,48000,"[0, 0, 1]",Australia,0.8921267108071764,0.19988584758569003
+6,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170619_030000.wav,0,44100,"[0, 1, 0]",Site_A,0.8911642264518895,0.22406704755658868
+7,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201706/SSK_Site_C_20170618_210500.wav,0,44100,"[0, 1, 0]",Site_C,0.48380370633440556,0.378900412805464
+8,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoF5.0532R.805322778.180831.NT0535.wav,0,48000,"[0, 0, 1]",Indonesia,0.9274795074016681,0.16551350834341266
+9,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023203726.wav,0,48000,"[0, 0, 1]",Australia,0.9536070358838077,0.11226884244772597
+10,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoF3.1205D.805322778.180829.NT1205.wav,0,48000,"[0, 0, 1]",Indonesia,0.8879846457826811,0.19900480901898585
+11,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/SaF2.1112R.671907872.180828.NT1205.wav,0,48000,"[0, 0, 1]",Indonesia,0.9505790734451419,0.11368137668494374
+12,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250624_155120.WAV,0,48000,"[0, 1, 0]",A_ND,0.9235099468415643,0.16856529473219412
+13,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204010550.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9425657580083106,0.13474989048102914
+14,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170619_020000.wav,0,44100,"[0, 1, 0]",Site_A,0.8890963472464714,0.22894043602192657
+15,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201706/SSK_Site_B_20170604_002500.wav,0,44100,"[0, 1, 0]",Site_B,0.8294263704430205,0.23613896033495071
+16,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250323_064600.WAV,0,48000,"[0, 1, 0]",A_D,0.9388460325488712,0.12347307544076082
+17,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170619_030500.wav,0,44100,"[0, 1, 0]",Site_A,0.8906041036757513,0.22606126524039363
+18,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250315_160800.WAV,0,48000,"[0, 1, 0]",A_D,0.9332603287942319,0.14119995992948323
+19,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250619_133618.WAV,0,48000,"[0, 1, 0]",A_ND,0.9260781397163844,0.15574107138722693
+20,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023174733.wav,0,48000,"[0, 0, 1]",Australia,0.9652216336709419,0.08228585263456722
+21,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/SaF2.1203R.671907872.180828.NT1212.wav,0,48000,"[0, 0, 1]",Indonesia,0.9451951570357512,0.12590447009070727
+22,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/SaF4.0533D.805322778.180830.NT0631.wav,0,48000,"[0, 0, 1]",Indonesia,0.9228256924420615,0.1711614513019597
+23,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoF5.0940H.671907872.180831.NT1035.wav,0,48000,"[0, 0, 1]",Indonesia,0.9436799365257049,0.13045726041927688
+24,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210203180546.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9439419487636034,0.11923007627134867
+25,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170528_012500.wav,0,44100,"[0, 1, 0]",Site_B,0.8972809621876242,0.2002404711659045
+26,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BaN11.1315H.805322778.180906.NT1358.wav,0,48000,"[0, 0, 1]",Indonesia,0.9383208413000673,0.14218233252145676
+27,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BaN11.2330H.805322778.180906.NT0026.wav,0,48000,"[0, 0, 1]",Indonesia,0.8470537827707965,0.2780672739879784
+28,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250321_152401.WAV,0,48000,"[0, 1, 0]",A_D,0.9458597079435833,0.10872608835723012
+29,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170622_152000.wav,0,44100,"[0, 1, 0]",Site_A,0.8781699913120327,0.24120470211878206
+30,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/April2024/20240308_170500.WAV,0,48000,"[0, 1, 0]",A_ND,0.8237524263935826,0.22462637464050725
+31,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201706/SSK_Site_B_20170602_031500.wav,0,44100,"[0, 1, 0]",Site_B,0.8207513394443265,0.25573076294889535
+32,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170620_140000.wav,0,44100,"[0, 1, 0]",Site_A,0.8743395791830133,0.24532907333184295
+33,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment2.1678278701.181031024242.wav,0,48000,"[0, 0, 1]",Australia,0.9459067455774932,0.12674245159439182
+34,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204053053.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9340075228972626,0.1476808204250143
+35,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170622_150500.wav,0,44100,"[0, 1, 0]",Site_A,0.8856462301801622,0.23245681148699895
+36,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250318_160700.WAV,0,48000,"[0, 1, 0]",A_D,0.9405407037192283,0.12196260000357115
+37,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250318_092700.WAV,0,48000,"[0, 1, 0]",A_D,0.9336419462481209,0.13118553741566638
+38,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170528_011000.wav,0,44100,"[0, 1, 0]",Site_B,0.8999806330189983,0.19267671729703412
+39,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/July 2024/20240716_180200.WAV,0,48000,"[0, 1, 0]",A_D,0.9122472485605737,0.17055692998617897
+40,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181024014718.wav,0,48000,"[0, 0, 1]",Australia,0.9315716723488495,0.15414451024225087
+41,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250317_093500.WAV,0,48000,"[0, 1, 0]",A_D,0.9325636521621817,0.13196304336525128
+42,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250318_171300.WAV,0,48000,"[0, 1, 0]",A_D,0.9528310013610569,0.10240395351769115
+43,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/Februrary_March2024/20240228_061800.WAV,0,48000,"[0, 1, 0]",A_ND,0.9428578600225064,0.11004746105143562
+44,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250628_100922.WAV,0,48000,"[0, 1, 0]",A_ND,0.9234209954037333,0.16086137016219756
+45,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250315_120600.WAV,0,48000,"[0, 1, 0]",A_D,0.947339267616112,0.10741377522865517
+46,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204031552.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9313567145807797,0.1538960678767757
+47,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170528_031000.wav,0,44100,"[0, 1, 0]",Site_B,0.9029472846956528,0.18937986050367628
+48,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170527_235500.wav,0,44100,"[0, 1, 0]",Site_B,0.8980299376301518,0.19506708819440743
+49,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023234726.wav,0,48000,"[0, 0, 1]",Australia,0.9458934301643037,0.12953494419462955
+50,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204024551.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9094193949565421,0.18464754395373745
+51,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181024051718.wav,0,48000,"[0, 0, 1]",Australia,0.9476702313873341,0.1251510500368929
+52,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210203160545.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9559919579001296,0.10387086944611179
+53,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170525_133500.wav,0,44100,"[0, 1, 0]",Site_C,0.6701960390360067,0.3363677407875914
+54,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201706/SSK_Site_C_20170618_211500.wav,0,44100,"[0, 1, 0]",Site_C,0.4911360242900943,0.3626564218555658
+55,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/SaF4.0533R.1677983769.180830.NT0610.wav,0,48000,"[0, 0, 1]",Indonesia,0.9466586218228085,0.12786531955011354
+56,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170527_162500.wav,0,44100,"[0, 1, 0]",Site_B,0.8593579491105627,0.22169930414158218
+57,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170528_034000.wav,0,44100,"[0, 1, 0]",Site_B,0.8999214563422293,0.19122971626534094
+58,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170622_154500.wav,0,44100,"[0, 1, 0]",Site_A,0.8994409611124305,0.21375663453696528
+59,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/SaF2.1203R.671907872.180828.NT1236.wav,0,48000,"[0, 0, 1]",Indonesia,0.9539265180667671,0.10607932383882711
+60,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170520_055500.wav,0,44100,"[0, 1, 0]",Site_C,0.7750858004736756,0.260875997650265
+61,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210203210048.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.8571052990105551,0.18893194307145178
+62,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170619_025500.wav,0,44100,"[0, 1, 0]",Site_A,0.8907881841750588,0.22597284442716178
+63,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170522_001000.wav,0,44100,"[0, 1, 0]",Site_C,0.7633940386973564,0.29201041953363593
+64,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250619_175418.WAV,0,48000,"[0, 1, 0]",A_ND,0.8435575154367752,0.22584837760647986
+65,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201706/SSK_Site_B_20170602_030500.wav,0,44100,"[0, 1, 0]",Site_B,0.864197127479406,0.22258465704367314
+66,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170517_195500.wav,0,44100,"[0, 1, 0]",Site_C,0.7317676239054487,0.30540462146032393
+67,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023183733.wav,0,48000,"[0, 0, 1]",Australia,0.958573483569924,0.1018768483540119
+68,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoF5.0532H.1677983769.180831.NT0559.wav,0,48000,"[0, 0, 1]",Indonesia,0.9485582096357414,0.12342702202043476
+69,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoN10.1731R.1677983769.180905.NT1733.wav,0,48000,"[0, 0, 1]",Indonesia,0.9576632199211867,0.10031827560440629
+70,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210203191547.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.943853730681867,0.1305432345469488
+71,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201706/SSK_Site_C_20170618_223000.wav,0,44100,"[0, 1, 0]",Site_C,0.45476622339599443,0.36597378297479066
+72,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250626_104519.WAV,0,48000,"[0, 1, 0]",A_ND,0.9226197333041809,0.163182484629076
+73,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_A/201706/SSK_Site_A_20170622_163000.wav,0,44100,"[0, 1, 0]",Site_A,0.797700820742493,0.2806816461578304
+74,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023153733.wav,0,48000,"[0, 0, 1]",Australia,0.9414054797808534,0.13465160521490088
+75,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170523_203500.wav,0,44100,"[0, 1, 0]",Site_C,0.5928285641943458,0.3503856005743203
+76,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170523_202500.wav,0,44100,"[0, 1, 0]",Site_C,0.5813401033873387,0.35552283870055834
+77,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment2.1678278701.181030221242.wav,0,48000,"[0, 0, 1]",Australia,0.9374985461510327,0.143744621332953
+78,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204060053.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9372699536192964,0.14787832343852375
+79,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250619_133818.WAV,0,48000,"[0, 1, 0]",A_ND,0.9317443582329745,0.1521411158521221
+80,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250321_173705.WAV,0,48000,"[0, 1, 0]",A_D,0.9322353256756726,0.13087456215557938
+81,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170522_005500.wav,0,44100,"[0, 1, 0]",Site_C,0.8047318830309911,0.2680439134423646
+82,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023182733.wav,0,48000,"[0, 0, 1]",Australia,0.9172469244748049,0.17539193764050964
+83,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250628_112733.WAV,0,48000,"[0, 1, 0]",A_ND,0.932858432092635,0.1422489770054169
+84,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204000550.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9508456008542998,0.11549752695169761
+85,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoN10.2359H.1678278701.180905.NT0054.wav,0,48000,"[0, 0, 1]",Indonesia,0.9411976142068023,0.13975346708825087
+86,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201706/SSK_Site_B_20170605_195500.wav,0,44100,"[0, 1, 0]",Site_B,0.49588361619289295,0.3631345318734068
+87,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250319_073500.WAV,0,48000,"[0, 1, 0]",A_D,0.9388601239931538,0.12925554505446565
+88,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170525_131500.wav,0,44100,"[0, 1, 0]",Site_C,0.43706005821056865,0.33823351269120444
+89,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Australia/Unknown/SiteAdeployment1.805322778.181023155733.wav,0,48000,"[0, 0, 1]",Australia,0.9409342281407869,0.1352190537840468
+90,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170518_154000.wav,0,44100,"[0, 1, 0]",Site_C,0.8203749715099616,0.262993065727222
+91,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BaN12.0529H.805322778.180907.NT0537.wav,0,48000,"[0, 0, 1]",Indonesia,0.8828965975987753,0.24149649208360555
+92,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_B/201705/SSK_Site_B_20170528_010500.wav,0,44100,"[0, 1, 0]",Site_B,0.9061903672128683,0.1866172350838073
+93,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/Indonesia/Unknown/BoN12.1220H.805322778.180907.NT1241.wav,0,48000,"[0, 0, 1]",Indonesia,0.9498114483824729,0.11710127995561606
+94,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204040052.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9471875666413276,0.12921775506831987
+95,/home/a.jajodia.229/acoustic/local_data/coral/Lin_et_al_2021/Site_C/201705/SSK_Site_C_20170517_235500.wav,0,44100,"[0, 1, 0]",Site_C,0.7683242844232254,0.2927130848230136
+96,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204052053.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.9284559030858754,0.15778710260780873
+97,/home/a.jajodia.229/acoustic/local_data/coral/Williams_et_al_2024/French_Polynesia/Unknown/SiteADay1.805322778.210204041052.wav,0,48000,"[0, 0, 1]",French_Polynesia,0.94601577343406,0.12597804964756543
+98,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_D/May 2025/20250316_193900.WAV,0,48000,"[0, 1, 0]",A_D,0.9229423669254707,0.14447727597636656
+99,/home/a.jajodia.229/acoustic/local_data/coral/Paola/A_ND/June2025/20250626_095521.WAV,0,48000,"[0, 1, 0]",A_ND,0.9149740061598711,0.17060077858563163
