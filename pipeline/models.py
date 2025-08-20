@@ -6,7 +6,8 @@ import torch
 class AutoEncoder():
     
     model_states = {
-        2: "dim_2.pt"
+        2: "dim_2.pt",
+        10: "dim_10.pt"
     }
     
     def __init__(self, num_dims, device):
