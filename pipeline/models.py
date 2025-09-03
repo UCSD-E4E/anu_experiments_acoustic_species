@@ -3,89 +3,102 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import torch
 
+class Reshape(nn.Module):
+    def __init__(self, *shape):
+        super(Reshape, self).__init__()
+        self.shape = shape
+
+    def forward(self, x):
+        return x.reshape(x.shape[0], *self.shape)
+
+encoder_expanded = lambda nfeat : nn.Sequential(
+    nn.Conv2d(1, 32, 3, stride=2, bias=False, padding=1),
+    nn.BatchNorm2d(32),
+    nn.ReLU(True),
+    nn.Conv2d(32, 64, 3, stride=2, bias=False, padding=1),
+    nn.BatchNorm2d(64),
+    nn.ReLU(True),
+    nn.Conv2d(64, 128, 3, stride=2, bias=False, padding=1),
+    nn.BatchNorm2d(128),
+    nn.ReLU(True),
+    nn.Conv2d(128, 256, 3, stride=2, bias=False, padding=1),
+    nn.BatchNorm2d(256),
+    nn.ReLU(True),
+    nn.Conv2d(256, 512, 3, stride=2, bias=False, padding=1),
+    nn.BatchNorm2d(512),
+    nn.ReLU(True),
+    nn.Conv2d(512, nfeat, 3, stride=2, padding=1),
+    
+    Reshape(nfeat * 4 * 4)
+)
+
+decoder_expanded = lambda nfeat : nn.Sequential(
+    Reshape(nfeat, 4, 4),
+    nn.ReLU(True),
+    
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(nfeat, 512, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(512),
+    nn.ReLU(True),
+    nn.Conv2d(512, 512, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(512),
+    nn.ReLU(True),
+    
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(512, 256, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(256),
+    nn.ReLU(True),
+    nn.Conv2d(256, 256, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(256),
+    nn.ReLU(True),
+
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(256, 128, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(128),
+    nn.ReLU(True),
+    nn.Conv2d(128, 128, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(128),
+    nn.ReLU(True),
+
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(128, 64, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(64),
+    nn.ReLU(True),
+    nn.Conv2d(64, 64, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(64),
+    nn.ReLU(True),
+
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(64, 32, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(32),
+    nn.ReLU(True),
+    nn.Conv2d(32, 32, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(32),
+    nn.ReLU(True),
+
+    nn.Upsample(scale_factor=2),
+    nn.Conv2d(32, 1, (3, 3), bias=False, padding=1),
+    nn.BatchNorm2d(1),
+    nn.ReLU(True),
+    nn.Conv2d(1, 1, (3, 3), bias=False, padding=1)
+)
+
 class AutoEncoder():
     
-    model_states = {
-        2: "dim_2.pt",
-        10: "dim_10.pt"
-    }
-    
-    def __init__(self, num_dims, device):
+    def __init__(self, num_dims, model_state, device):
         super(AutoEncoder, self).__init__()
         
         self.device = device
-    
-        # architecture from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283396
-        encoder = lambda nfeat : nn.Sequential(
-            nn.Conv2d(1, 32, 3, stride=2, bias=False, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(True),
-            nn.Conv2d(32, 64, 3, stride=2, bias=False, padding=1),
-            nn.BatchNorm2d(64),
-            nn.ReLU(True),
-            nn.Conv2d(64, 128, 3, stride=2, bias=False, padding=1),
-            nn.BatchNorm2d(128),
-            nn.ReLU(True),
-            nn.Conv2d(128, 256, 3, stride=2, bias=False, padding=1),
-            nn.BatchNorm2d(256),
-            nn.ReLU(True),
-            nn.Conv2d(256, 1, 3, stride=2, padding=1),
-            nn.Flatten(2),
-            nn.Linear(64, nfeat)
-        )
-
-        decoder = lambda nfeat : nn.Sequential(
-            nn.Linear(nfeat, 64),
-            nn.Unflatten(2, (8,8)),
-            nn.ReLU(True),
-            nn.Upsample(scale_factor=2),
-            nn.Conv2d(1, 256, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(256),
-            nn.ReLU(True),
-            nn.Conv2d(256, 256, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(256),
-            nn.ReLU(True),
-
-            nn.Upsample(scale_factor=2),
-            nn.Conv2d(256, 128, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(128),
-            nn.ReLU(True),
-            nn.Conv2d(128, 128, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(128),
-            nn.ReLU(True),
-
-            nn.Upsample(scale_factor=2),
-            nn.Conv2d(128, 64, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(64),
-            nn.ReLU(True),
-            nn.Conv2d(64, 64, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(64),
-            nn.ReLU(True),
-
-            nn.Upsample(scale_factor=2),
-            nn.Conv2d(64, 32, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(True),
-            nn.Conv2d(32, 32, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(True),
-
-            nn.Upsample(scale_factor=2),
-            nn.Conv2d(32, 1, (3, 3), bias=False, padding=1),
-            nn.BatchNorm2d(1),
-            nn.ReLU(True),
-            nn.Conv2d(1, 1, (3, 3), bias=False, padding=1)
-        )
         
-        self.encoder = encoder(num_dims)
-        self.decoder = decoder(num_dims)
+        self.encoder = encoder_expanded(num_dims)
+        self.decoder = decoder_expanded(num_dims)
 
         self.model = nn.Sequential(
             self.encoder,
             self.decoder
         ).to(device)
         
-        state = torch.load(AutoEncoder.model_states[num_dims])
+        state = torch.load(model_state)
         
         self.model.load_state_dict(state)
         
