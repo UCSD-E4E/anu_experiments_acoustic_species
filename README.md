@@ -2,5 +2,4 @@
 
 This repo is deprecated, please see https://github.com/UCSD-E4E/acoustic_knowledge_discovery
 
-
-An exploratory implementation for Using vector databases and model embeddings, this system intends to uncover knowledge from the acoustic soundscapes
+Anu's projects from the E4E REU during Summer 2025, lots of this stuff is valuable but very messy!
